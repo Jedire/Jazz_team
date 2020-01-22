@@ -1,0 +1,228 @@
+#menu{
+  float:right;
+  margin-top:30px;
+}
+#menu ul li{
+  display:inline;
+  list-style-type:none;
+  width: 25px;
+}
+#header {
+  background:#222222;
+  height:100px;
+  border-bottom:solid 1px #333333;
+}
+.center {
+    width: 960px;
+    margin: 0 auto;
+}
+#menu ul li a{
+  padding:5px 0px;
+  font-size:14px;
+  text-decoration:none;
+  margin:0px 10px;
+  font-weight:bold;
+}
+#menu ul li a span{
+  font-size:14px;
+  text-decoration:none;
+  padding:0px 10px;
+  color:#999999;
+}
+#menu ul li a.active{
+  /* background:url(images/menur.gif) no-repeat right; */
+}
+#menu ul li a.active span{
+  /* background:url(images/menul.gif) no-repeat left; */
+  padding:5px 10px;color:#333;
+}
+#menu ul li a:hover{
+  /* background:url(images/menur.gif) no-repeat right; */
+  font-weight:bold;
+  background: white;
+    border-radius: 50%;
+}
+#menu ul li a:hover span{
+  /* background:url(images/menul.gif) no-repeat left; */
+  padding:5px 10px;color:#333;
+}
+
+#logo{
+  padding-top: 16px;
+  width: 217px;
+  float: left;
+}
+#logo a{
+  /* background:url(images/logo.gif) no-repeat; */
+  /* display:block; */
+  width:207px;
+  height:53px;
+  text-indent:-10000px;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-style: italic;
+  aimation: flow 10s ease-in-out infinite;
+  background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752);
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes flow{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+body {
+    display: block;
+    margin: 0px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+img{
+    /* width: 100%; */
+}
+.center {
+    width: 960px;
+    margin: 0 auto;
+}
+.wrapper{
+  color: white;
+  margin-top: -21px;
+  background: #2791a9;
+}
+.cat{
+  width: 250px;
+  border: 10px solid white;
+  margin: 2px;
+}
+.cat1{
+  width: 400px;
+  border: 10px solid white;
+  margin: 2px;
+}
+.cat2{
+  width: 800px;
+  border: 10px solid white;
+  margin: 2px;
+}
+
+/* HOME */
+
+img{
+    /* width: 100%; */
+}
+.center {
+    width: 960px;
+    margin: 0 auto;
+}
+.wrapper{
+  margin-top: -21px;
+  background: #2791a9;
+}
+.cat{
+  width: 250px;
+  border: 10px solid white;
+  margin: 2px;
+}
+.cat1{
+  width: 400px;
+  border: 10px solid white;
+  margin: 2px;
+}
+.cat2{
+  width: 800px;
+  border: 10px solid white;
+  margin: 2px;
+}
+
+
+/* HOME END */
+
+
+
+/* LOGIN */
+.wrapper_login{
+  margin-top: -21px;
+  background: #16aacc;
+  height: 100%;
+}
+.cat_half{
+  width: 50%;
+  height: 700px;
+  /* display: inline-block; */
+}
+.DivLogin{
+  /* border: 1px double rgb(214, 87, 87); */
+  width: 320px;
+  height: 290px;
+  text-align: center;
+  padding-top: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 14%;
+  background-color: #0fcaf5;
+  color:white;
+}
+
+button{
+    /*
+    background-color: rgb(14, 80, 155);
+    padding: 6px;
+    font-size: 24px;
+    color: white;
+    border: 0; */
+
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+input{
+  display: block;
+    width: 80%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .175rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 20px;
+}
+
+
+/* LOGIN END */
+.wrapper.info{
+  padding: 20px 0;
+}
